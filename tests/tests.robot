@@ -4,8 +4,8 @@ Documentation    Suite description
 Library     SeleniumLibrary
 
 Resource    ../utils/browser_setup.robot
-Resource    ../pages/contact_page.robot
-Resource    ../pages/shop_page.robot
+Resource    ../page_objects/contact_page.robot
+Resource    ../page_objects/shop_page.robot
 
 Test Setup  Run Keywords  Launch Browser
 Test Teardown  Close Browser
